@@ -1,15 +1,8 @@
 Windows Subsystem for Linux
 
-WSL is a virtualization feature that enables one to run a linux instance (or multiple linux instances) under Windows with minimal overhead. On Windows 11, WSL is installed by default.
+WSL is a virtualization feature that enables one to run a linux instance (or multiple linux instances) under Windows with minimal overhead. By default, on Windows 11, WSL feature is installed by but no linux instances are deployed.
 
-To verify that WSL is installed, open a command prompt and run:
-
-```
-wsl --version
-```
-
-The command should output the version of WSL and related Windows components.
-
+We can confirm by running the wsl command. We would expect the following output:
 ```
 wsl --list
 ```
