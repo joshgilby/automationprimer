@@ -14,7 +14,7 @@ We can confirm by running the `wsl --list` wsl command, which would produce the 
 
 The command `wsl --list --online` will show the linux distributions that are available to download and install:
 <pre><code>
-</code> The following is a list of valid distributions that can be installed.
+The following is a list of valid distributions that can be installed.
 Install using 'wsl.exe --install <Distro>'.
  
 NAME                            FRIENDLY NAME
