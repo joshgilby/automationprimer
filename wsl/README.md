@@ -31,5 +31,5 @@ cd %HOMEPATH%\wsl
 mkdir images
 mkdir instances
 wsl --export Ubuntu-24.04 images\ubuntu-24.04-base.tar
-wsl --import ubuntunetbox .\instances\ubuntunetbox images\ubuntu-24.04-base.tar UbuntuNetbox
+wsl --import ubuntunetbox .\instances\ubuntunetbox images\ubuntu-24.04-base.tar
 ```
