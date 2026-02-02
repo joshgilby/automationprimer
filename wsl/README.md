@@ -26,6 +26,10 @@ sudo apt update && sudo apt -y upgrade && sudo shutdown -h now
 ```
 Now, back at the command prompt, export and re-import the wsl instance:
 ```
-wsl --export Ubuntu-24.04 ubuntu-24.04-base.tar
-wsl --import ubuntu-24.04-base.tar UbuntuNetbox
+mkdir wsl
+cd wsl
+mkdir images
+mkdir instances
+wsl --export Ubuntu-24.04 images\ubuntu-24.04-base.tar
+wsl --import ubuntunetbox .\instances\ubuntunetbox images\ubuntu-24.04-base.tar UbuntuNetbox
 ```
