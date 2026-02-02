@@ -16,8 +16,11 @@ The command `wsl --list --online` will show the linux distributions that are ava
 
 To install Ubuntu 24.04 LTS, run the command:
 ```
-wsl --install Ubuntu-24.04 UbuntuBase
+wsl --install Ubuntu-24.04
 ```
 During the installation, WSL will prompt for an administrative username and password. Enter values that you will remember. When the installation completes, WSL does not return to a command prompt. Instead it will bring up a `bash` shell on the newly-installed linux instance.
 
-While we could 
+While we could start using our linux instance right away, it is useful to produce a base image for deploying new instances. I the bash shell run updates:
+```
+sudo apt update && sudo apt upgrade
+```
