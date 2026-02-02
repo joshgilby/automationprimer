@@ -26,8 +26,8 @@ sudo apt update && sudo apt -y upgrade && sudo shutdown -h now
 ```
 Now, back at the command prompt, export and re-import the wsl instance:
 ```
-mkdir wsl
-cd wsl
+mkdir %HOMEPATH%\wsl
+cd %HOMEPATH%\wsl
 mkdir images
 mkdir instances
 wsl --export Ubuntu-24.04 images\ubuntu-24.04-base.tar
