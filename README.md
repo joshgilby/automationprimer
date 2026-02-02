@@ -3,7 +3,7 @@ Material for familiarizing network engineers with automation tools
 
 The primer includes coverage of:
 - NetBox
-- Windows Subsystem for Linux (WSL)
+- [Windows Subsystem for Linux (WSL)](wsl/README.md)
 - Visual Studio Code
 - Containerlab
 
