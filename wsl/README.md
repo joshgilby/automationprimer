@@ -13,7 +13,8 @@ We can confirm by running the `wsl --list` wsl command, which would produce the 
 >Error code: Wsl/WSL_E_DEFAULT_DISTRO_NOT_FOUND
 
 The command `wsl --list --online` will show the linux distributions that are available to download and install:
-> The following is a list of valid distributions that can be installed.
+<pre><code>
+</code> The following is a list of valid distributions that can be installed.
 > Install using 'wsl.exe --install <Distro>'.
 > 
 > NAME                            FRIENDLY NAME
@@ -29,6 +30,7 @@ The command `wsl --list --online` will show the linux distributions that are ava
 > openSUSE-Leap-15.6              openSUSE Leap 15.6
 > SUSE-Linux-Enterprise-15-SP6    SUSE Linux Enterprise 15 SP6
 > openSUSE-Tumbleweed             openSUSE Tumbleweed
+</Distro>code></pre>pre>
 
 To install Ubuntu 24.04 LTS, run the command:
 ```
