@@ -20,7 +20,12 @@ wsl --install Ubuntu-24.04
 ```
 During the installation, WSL will prompt for an administrative username and password. Enter values that you will remember. When the installation completes, WSL does not return to a command prompt. Instead it will bring up a `bash` shell on the newly-installed linux instance.
 
-While we could start using our linux instance right away, it is useful to produce a base image for deploying new instances. I the bash shell run updates:
+While we could start using our linux instance right away, it is useful to produce a base image for deploying new instances. In the bash shell apply updates:
 ```
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt -y upgrade && sudo shutdown -h now
+```
+Now, back at the command prompt, export and re-import the wsl instance:
+```
+wsl --export Ubuntu-24.04 ubuntu-24.04-base.tar
+esl --import ubuntu-24.04-base.tar UbuntuNetbox
 ```
