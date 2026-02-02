@@ -12,27 +12,10 @@ We can confirm by running the `wsl --list` wsl command, which would produce the 
 >https://aka.ms/wslstore
 >Error code: Wsl/WSL_E_DEFAULT_DISTRO_NOT_FOUND
 
-The command `wsl --list --online` will show the linux distributions that are available to download and install:
-<pre style="background-color: #f7f7f7; color: #222222"><code>
- The following is a list of valid distributions that can be installed.
-Install using 'wsl.exe --install <Distro>'.
- 
-NAME                            FRIENDLY NAME
-Ubuntu                          Ubuntu
-Debian                          Debian GNU/Linux
-kali-linux                      Kali Linux Rolling
-Ubuntu-20.04                    Ubuntu 20.04 LTS
-Ubuntu-22.04                    Ubuntu 22.04 LTS
-Ubuntu-24.04                    Ubuntu 24.04 LTS
-OracleLinux_7_9                 Oracle Linux 7.9
-OracleLinux_8_10                Oracle Linux 8.10
-OracleLinux_9_5                 Oracle Linux 9.5
-openSUSE-Leap-15.6              openSUSE Leap 15.6
-SUSE-Linux-Enterprise-15-SP6    SUSE Linux Enterprise 15 SP6
-openSUSE-Tumbleweed             openSUSE Tumbleweed
-</code></pre>
+The command `wsl --list --online` will show the linux distributions that are available to download and install.
 
 To install Ubuntu 24.04 LTS, run the command:
 ```
 wsl --install Ubuntu-24.04
 ```
+During the installation, WSL will prompt for an administrative username and password. Enter values that you will remember. When the installation completes, WSL does not return to a command prompt. Instead it will bring up a `bash` shell on the newly-installed linux instance.
