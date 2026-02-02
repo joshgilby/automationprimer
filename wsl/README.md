@@ -13,7 +13,7 @@ We can confirm by running the `wsl --list` wsl command, which would produce the 
 >Error code: Wsl/WSL_E_DEFAULT_DISTRO_NOT_FOUND
 
 The command `wsl --list --online` will show the linux distributions that are available to download and install:
-<pre style="background-color: #00f7f7;"><code>The following is a list of valid distributions that can be installed.
+<pre style="background-color: #f7f7f7;"><code>The following is a list of valid distributions that can be installed.
 Install using 'wsl.exe --install <Distro>'.
  
 NAME                            FRIENDLY NAME
