@@ -35,7 +35,12 @@ wsl --update
 
 By default, on Windows 11, WSL feature is installed by but no linux instances are deployed.
 
-We can confirm by running the `wsl --list` wsl command, which would produce the following output:
+We can confirm by running
+
+```wsl --list```
+
+which would produce the following output:
+
 >Windows Subsystem for Linux has no installed distributions.
 >
 >Use 'wsl.exe --list --online' to list available distributions
