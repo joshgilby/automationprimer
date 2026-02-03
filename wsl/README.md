@@ -1,6 +1,39 @@
-Windows Subsystem for Linux
+# Windows Subsystem for Linux / Visual Studio Code Lab
 
-WSL is a virtualization feature that enables one to run a linux instance (or multiple linux instances) under Windows with minimal overhead. By default, on Windows 11, WSL feature is installed by but no linux instances are deployed.
+Windows Subsystem for Linux (WSL) and Visual Studio Code (VS Code) are two popular tools for network automation. Together, they provide an integrated development environment for cross-platform development. In this lab, we will deploy an instance of Ubuntu-24.04 via WSL and connect to the instance with VS Code.
+
+## Windows Subsystem for Linux
+
+WSL is a virtualization feature in Windows 11 that enables one to run a linux instance (or multiple linux instances) under Windows with minimal overhead. This allows developers to write code for a linux environment from within Windows. Running linux locally removes constraints around network capacity, latency, availability, and security.
+
+### Create Directory Structure
+
+Before starting with WSL, we will create directories to hold our running instances and backup images. Open a command prompt and run the following:
+
+```
+mkdir %HOMEPATH%\wsl
+cd %HOMEPATH%\wsl
+mkdir images
+mkdir instances
+```
+
+### Check WSL Version
+
+Ensure that the latest version of WSL is installed. In the command prompt:
+
+```
+wsl --version
+```
+
+If necessary, upgrade WSL to the latest version (2.6.3.0 as of this writing):
+
+```
+wsl --update
+```
+
+### Install Ubuntu-24.04
+
+By default, on Windows 11, WSL feature is installed by but no linux instances are deployed.
 
 We can confirm by running the `wsl --list` wsl command, which would produce the following output:
 >Windows Subsystem for Linux has no installed distributions.
@@ -33,3 +66,5 @@ mkdir instances
 wsl --export Ubuntu-24.04 images\ubuntu-24.04-base.tar
 wsl --import ubuntunetbox .\instances\ubuntunetbox images\ubuntu-24.04-base.tar
 ```
+
+## Visual Studio Code
