@@ -58,4 +58,9 @@ Visit the [Visual Studio Download page](https://code.visualstudio.com/download) 
 # References
 
 WSL
+- [Windows Subsystem for Linux Documentation](https://learn.microsoft.com/en-us/windows/wsl/)
 - [Set up a WSL development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
+
+VS Code
+- [Visual Studio Code documentation](https://code.visualstudio.com/docs)
+- [Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
