@@ -39,22 +39,18 @@ The command `wsl --list --online` will show the linux distributions that are ava
 
 To install Ubuntu 24.04 LTS, run the command:
 ```
-wsl --install --distribution Ubuntu-24.04
+wsl --install --distribution Ubuntu-24.04 --name ubuntu-netbox
 ```
 During the installation, WSL will prompt for an administrative username and password. Enter values that you will remember. When the installation completes, WSL does not return to a command prompt. Instead it will bring up a `bash` shell on the newly-installed linux instance.
 
-While we could start using our linux instance right away, it is useful to produce a base image for deploying new instances. In the bash shell apply updates:
-```
-sudo apt update && sudo apt -y upgrade && sudo shutdown -h now
-```
-Now, back at the command prompt, export and re-import the wsl instance:
-```
-mkdir %HOMEPATH%\wsl
-cd %HOMEPATH%\wsl
-mkdir images
-mkdir instances
-wsl --export Ubuntu-24.04 images\ubuntu-24.04-base.tar
-wsl --import ubuntunetbox .\instances\ubuntunetbox images\ubuntu-24.04-base.tar
-```
+That completes the WSL installation. You should now have a linux instance running on your Windows host. Running `wsl -d ubuntu-netbox` from a terminal will open a shell on the linux instance. It will also show up as an app named 'ubuntu-netbox' in the start menu.
+
+You can use the WSL instance as it is, or continue on to integrate WSL with VS Code. 
 
 ## Visual Studio Code
+
+VS Code is an integrated development environment, combining several software development features into a single package. To start, we will use it as a file explorer, text editor, and terminal. Later, we will explore additional features such as source control, build automation, and debugging.
+
+### Install VS Code
+
+Visit the [Visual Studio Download page](https://code.visualstudio.com/download) and dowload the installer for your platform.
