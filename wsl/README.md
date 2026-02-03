@@ -57,11 +57,27 @@ Visit the [Visual Studio Download page](https://code.visualstudio.com/download) 
 
 ### Connect VS Code to WSL
 
-There are several ways to connect VS Code to your WSL instance. Simplest is to open your linux shell and run:
+Run VS Code. The main work area will include a "Start" menu. Select "Connect to...". In the menu, "select Connect to WSL using Distro...", then "ubuntu-netbox". This will install the VS Code server components on the linux instance, integrating your VS Code development environment with the WSL environment.
 
+From the same menu select "Open Folder..." and keep the default, which is the default user's home directory. Hit "ok". When prompted, select "Yes, I trust the autheors".
+
+### VS Code customization
+
+TODO:
+Install remote development 
+
+### Open terminal
+
+From the menu bar, select Terminal -> New Terminal. This opens a terminal with a bash shell on the WSL instance, which is effectively the same as the bash shell that opened in our Windows terminal when WSL finished installing.
+
+### Use VS Code terminal to update your WSL installation
+
+In the VS Code terminal run:
 ```
-code ~
+sudo apt update && sudo apt upgrade
 ```
+
+Congratulations! You now have an environment to develop and deploy linux applications on Windows.
 
 # Further Reading
 
