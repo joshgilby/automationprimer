@@ -54,3 +54,8 @@ VS Code is an integrated development environment, combining several software dev
 ### Install VS Code
 
 Visit the [Visual Studio Download page](https://code.visualstudio.com/download) and dowload the installer for your platform.
+
+# References
+
+WSL
+- [Set up a WSL development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
