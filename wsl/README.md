@@ -6,20 +6,9 @@ Windows Subsystem for Linux (WSL) and Visual Studio Code (VS Code) are two popul
 
 WSL is a virtualization feature in Windows 11 that enables one to run a linux instance (or multiple linux instances) under Windows with minimal overhead. This allows developers to write code for a linux environment from within Windows. Running linux locally removes constraints around network capacity, latency, availability, and security.
 
-### Create Directory Structure
-
-Before starting with WSL, we will create directories to hold our running instances and backup images. Open a command prompt and run the following:
-
-```
-mkdir %HOMEPATH%\wsl
-cd %HOMEPATH%\wsl
-mkdir images
-mkdir instances
-```
-
 ### Check WSL Version
 
-Ensure that the latest version of WSL is installed. In the command prompt:
+Ensure that the latest version of WSL is installed. Open a command prompt and run:
 
 ```
 wsl --version
@@ -35,11 +24,7 @@ wsl --update
 
 By default, on Windows 11, WSL feature is installed by but no linux instances are deployed.
 
-We can confirm by running
-
-```wsl --list```
-
-which would produce the following output:
+We can confirm by running `wsl --list` which would produce the following output:
 
 >Windows Subsystem for Linux has no installed distributions.
 >
@@ -54,7 +39,7 @@ The command `wsl --list --online` will show the linux distributions that are ava
 
 To install Ubuntu 24.04 LTS, run the command:
 ```
-wsl --install Ubuntu-24.04
+wsl --install --distribution Ubuntu-24.04
 ```
 During the installation, WSL will prompt for an administrative username and password. Enter values that you will remember. When the installation completes, WSL does not return to a command prompt. Instead it will bring up a `bash` shell on the newly-installed linux instance.
 
