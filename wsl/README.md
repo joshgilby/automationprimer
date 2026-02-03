@@ -53,7 +53,15 @@ VS Code is an integrated development environment, combining several software dev
 
 ### Install VS Code
 
-Visit the [Visual Studio Download page](https://code.visualstudio.com/download) and dowload the installer for your platform.
+Visit the [Visual Studio Download page](https://code.visualstudio.com/download) and dowload the installer for your platform. Download and run the user installer for your platform, keeping default settings.
+
+### Connect VS Code to WSL
+
+There are several ways to connect VS Code to your WSL instance. Simplest is to open your linux shell and run:
+
+```
+code ~
+```
 
 # Further Reading
 
