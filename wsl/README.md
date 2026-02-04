@@ -55,16 +55,16 @@ VS Code is an integrated development environment, combining several software dev
 
 Visit the [Visual Studio Download page](https://code.visualstudio.com/download) and dowload the installer for your platform. Download and run the user installer for your platform, keeping default settings.
 
+### VS Code customization
+
+TODO:
+Install remote development extensions
+
 ### Connect VS Code to WSL
 
 Run VS Code. The main work area will include a "Start" menu. Select "Connect to...". In the menu, "select Connect to WSL using Distro...", then "ubuntu-netbox". This will install the VS Code server components on the linux instance, integrating your VS Code development environment with the WSL environment.
 
 From the same menu select "Open Folder..." and keep the default, which is the default user's home directory. Hit "ok". When prompted, select "Yes, I trust the autheors".
-
-### VS Code customization
-
-TODO:
-Install remote development 
 
 ### Open terminal
 
