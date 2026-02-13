@@ -1,5 +1,5 @@
 # Network Automation Primer
-Material for familiarizing network engineers with automation tools
+Automation workshops for network engineers
 
 The primer includes coverage of:
 - [Windows Subsystem for Linux (WSL)](wsl/)
