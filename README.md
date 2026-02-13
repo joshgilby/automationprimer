@@ -6,6 +6,7 @@ The primer includes coverage of:
 - Visual Studio Code
 - NetBox
 - Containerlab
+- git
 
 
 # Resources
