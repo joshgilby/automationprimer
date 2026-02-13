@@ -7,8 +7,6 @@ The primer includes coverage of:
 - NetBox
 - Containerlab
 
-```
-Try to copy this
-```
 
-# automationprimer
+# Resources
+- [github training manual](https://githubtraining.github.io/training-manual/#/)
