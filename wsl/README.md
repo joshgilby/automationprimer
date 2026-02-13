@@ -66,7 +66,7 @@ Run VS Code. The main work area will include a "Start" menu. Select "Connect to.
 
 From the same menu select "Open Folder..." and keep the default, which is the default user's home directory. Hit "ok". When prompted, select "Yes, I trust the autheors".
 
-### Open terminal
+### Open a terminal
 
 From the menu bar, select Terminal -> New Terminal. This opens a terminal with a bash shell on the WSL instance, which is effectively the same as the bash shell that opened in our Windows terminal when WSL finished installing.
 
