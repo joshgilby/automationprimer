@@ -57,7 +57,6 @@ Visit the [Visual Studio Download page](https://code.visualstudio.com/download) 
 
 ### VS Code customization
 
-TODO:
 Install remote development extensions
 
 ### Connect VS Code to WSL
