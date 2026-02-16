@@ -4,8 +4,7 @@ site_description: Intorduction to tools and processes used in network automation
 nav:
   - WSL with VS Code: "wsl_vscode.md"
 
-
 repo_url: https://github.com/joshgilby/automationprimer
 repo_name: joshgilby/automationprimer
 
-theme: jekyll-theme-slate
+theme: jeckyll-theme-slate
