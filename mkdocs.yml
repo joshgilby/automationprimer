@@ -18,15 +18,11 @@ repo_url: https://github.com/joshgilby/automationprimer
 repo_name: joshgilby/automationprimer
 
 theme:
-  name: material
+  name: Slate
   palette:
     - scheme: slate
-      primary: custom
-      accent: custom
   features:
     - navigation.tracking
-extra_css:
-  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
