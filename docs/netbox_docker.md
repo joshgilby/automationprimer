@@ -43,5 +43,7 @@ Finally, create an administrative user for NetBox:
 docker compose exec netbox /opt/netbox/netbox/manage.py createsuperuser
 ```
 
+Follow the prompts to create a netbox user. Your NetBox instance is now deployed. The web interface can be reached at http://localhost:8000
+
 # Further Reading
 - [netbox-docker Repository](https://github.com/netbox-community/netbox-docker)
