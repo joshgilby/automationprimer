@@ -35,7 +35,7 @@ docker compose up
 
 When docker compose completes, it may indicate that the netbox-docker-netbox-1 container is unhealthy. This is usually not a problem. The container is still starting up and will complete in a few minutes.
 
-When the netbox installation is complete, you will see the netbox homepage at http://localhost:8000
+When the netbox installation is complete, you will see the netbox landing page at http://localhost:8000
 
 Finally, create an administrative user for NetBox:
 
