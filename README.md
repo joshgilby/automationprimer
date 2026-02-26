@@ -6,8 +6,8 @@ Automation workshops for network engineers
 - [Install NetBox docker image](docs/netbox_docker.md)
 
 ## Upcoming Workshops
+- [Install containerlab](docs/containerlab.md)
 - NetBox
-- Containerlab
 - git
 
 # Helpful Resources
