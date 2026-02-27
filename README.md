@@ -1,7 +1,16 @@
-# automationprimer
-Material for familiarizing network engineers with automation tools:
-```
-Try to copy this
-```
+# Network Automation Primer
+Automation workshops for network engineers
 
-# automationprimer
+## Available Workshops
+- [Set up a development environment with WSL and VS Code](docs/wsl_vscode.md)
+- [Install NetBox docker image](docs/netbox_docker.md)
+
+## Upcoming Workshops
+- [Install containerlab](docs/containerlab.md)
+- NetBox
+- git
+
+# Helpful Resources
+- [Windows Subsystem for Linux Documentation](https://learn.microsoft.com/en-us/windows/wsl/)
+- [github training manual](https://githubtraining.github.io/training-manual/#/)
+- [Visual Studio Code documentation](https://code.visualstudio.com/docs)

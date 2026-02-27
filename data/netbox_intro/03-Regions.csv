@@ -1,0 +1,5 @@
+name,slug,parent
+Pennsylvania,pennsylvania, 
+Pittsburgh,pittsburgh,Pennsylvania
+Illinois,illinois,
+Chicago,chicago,Illinois
