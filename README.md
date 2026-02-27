@@ -4,6 +4,7 @@ Automation workshops for network engineers
 ## Available Workshops
 - [Set up a development environment with WSL and VS Code](docs/wsl_vscode.md)
 - [Install NetBox docker image](docs/netbox_docker.md)
+- [NetBox Introduction](docs/netbox_intro.md)
 
 ## Upcoming Workshops
 - [Install containerlab](docs/containerlab.md)
