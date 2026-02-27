@@ -1,4 +1,4 @@
-# Introduction to NetBox: DCIM
+# Introduction to NetBox
 
 ## Tenancy
 
@@ -21,3 +21,23 @@
 ### Racks
 
 ## Contacts
+
+## Equipment
+
+### Manufacturers
+
+### Device Types
+
+### Device Roles
+
+### Platforms
+
+## IPAM
+
+### RIRs
+
+### Aggregates
+
+### Prefixes
+
+### IP Addresses
