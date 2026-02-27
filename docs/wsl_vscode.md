@@ -13,6 +13,7 @@ Ensure that the latest version of WSL is installed. Open a command prompt and ru
 ```
 wsl --version
 ```
+If WSL is not installed, you can install it with ```wsl --install```
 
 If necessary, upgrade WSL to the latest version (2.6.3.0 as of this writing):
 
