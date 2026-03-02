@@ -7,7 +7,7 @@ nav:
 theme:
   name: material
   pallette:
-    - scheme: slate
+    scheme: default
   features:
     - navigation.tracking
     - content.code.copy
