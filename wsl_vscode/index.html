@@ -537,23 +537,28 @@
 <p>WSL is a virtualization feature in Windows 11 that enables one to run a linux instance (or multiple linux instances) under Windows with minimal overhead. This allows developers to write code for a linux environment from within Windows. Running linux locally removes constraints around network capacity, latency, availability, and security.</p>
 <h3 id="check-wsl-version">Check WSL Version</h3>
 <p>Ensure that the latest version of WSL is installed. Open a command prompt and run:</p>
-<p><div class="highlight"><pre><span></span><code>wsl --version
+<div class="highlight"><pre><span></span><code>wsl --version
 </code></pre></div>
-If WSL is not installed, you can install it with <code>wsl --install</code></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If WSL is not installed, you can install it with </p>
+<div class="highlight"><pre><span></span><code>wsl --install
+</code></pre></div>
+</div>
 <p>If necessary, upgrade WSL to the latest version (2.6.3.0 as of this writing):</p>
 <div class="highlight"><pre><span></span><code>wsl --update
 </code></pre></div>
 <h3 id="install-ubuntu-2404">Install Ubuntu-24.04</h3>
-<p>By default, on Windows 11, WSL feature is installed by but no linux instances are deployed.</p>
-<p>We can confirm by running <code>wsl --list</code> which would produce the following output:</p>
-<blockquote>
-<p>Windows Subsystem for Linux has no installed distributions.</p>
-<p>Use 'wsl.exe --list --online' to list available distributions
-and 'wsl.exe --install <Distro>' to install.</p>
-<p>Distributions can also be installed by visiting the Microsoft Store:
-https://aka.ms/wslstore
-Error code: Wsl/WSL_E_DEFAULT_DISTRO_NOT_FOUND</p>
-</blockquote>
+<p>By default, no linux instances are deployed.  We can confirm by running <code>wsl --list</code> which would produce the following output:</p>
+<div class="nocopy highlight"><pre><span></span><code><span class="n">Windows</span> <span class="n">Subsystem</span> <span class="k">for</span> <span class="n">Linux</span> <span class="n">has</span> <span class="n">no</span> <span class="n">installed</span> <span class="n">distributions</span><span class="o">.</span>
+
+<span class="n">Use</span> <span class="s1">&#39;wsl.exe --list --online&#39;</span> <span class="n">to</span> <span class="nb">list</span> <span class="n">available</span> <span class="n">distributions</span>
+<span class="ow">and</span> <span class="s1">&#39;wsl.exe --install &lt;Distro&gt;&#39;</span> <span class="n">to</span> <span class="n">install</span><span class="o">.</span>
+
+<span class="n">Distributions</span> <span class="n">can</span> <span class="n">also</span> <span class="n">be</span> <span class="n">installed</span> <span class="n">by</span> <span class="n">visiting</span> <span class="n">the</span> <span class="n">Microsoft</span> <span class="n">Store</span><span class="p">:</span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">aka</span><span class="o">.</span><span class="n">ms</span><span class="o">/</span><span class="n">wslstore</span>
+<span class="n">Error</span> <span class="n">code</span><span class="p">:</span> <span class="n">Wsl</span><span class="o">/</span><span class="n">WSL_E_DEFAULT_DISTRO_NOT_FOUND</span>
+</code></pre></div>
 <p>The command <code>wsl --list --online</code> will show the linux distributions that are available to download and install.</p>
 <p>To install Ubuntu 24.04 LTS, run the command:
 <div class="highlight"><pre><span></span><code>wsl --install --distribution Ubuntu-24.04 --name ubuntu-netbox
