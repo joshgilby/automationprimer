@@ -2,6 +2,7 @@ site_name: Automation Primer
 nav:
   - Home: index.md
   - WSL/VS Code: wsl_vscode.md
+  - netbox-docker: netbox_docker.md
 
 theme:
   name: material
