@@ -1,0 +1,17 @@
+site_name: Automation Primer
+nav:
+  - Home: index.md
+  - WSL/VS Code: wsl_vscode.md
+
+theme:
+  name: material
+  pallette:
+    - scheme: slate
+  features:
+    - navigation.tracking
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
