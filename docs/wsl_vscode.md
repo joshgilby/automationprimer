@@ -13,7 +13,13 @@ Ensure that the latest version of WSL is installed. Open a command prompt and ru
 ```
 wsl --version
 ```
-If WSL is not installed, you can install it with ```wsl --install```
+
+!!! tip
+    If WSL is not installed, you can install it with 
+    
+    ```
+    wsl --install
+    ```
 
 If necessary, upgrade WSL to the latest version (2.6.3.0 as of this writing):
 
@@ -23,18 +29,18 @@ wsl --update
 
 ### Install Ubuntu-24.04
 
-By default, on Windows 11, WSL feature is installed by but no linux instances are deployed.
+By default, no linux instances are deployed.  We can confirm by running `wsl --list` which would produce the following output:
 
-We can confirm by running `wsl --list` which would produce the following output:
+``` { .py .nocopy }
+Windows Subsystem for Linux has no installed distributions.
 
->Windows Subsystem for Linux has no installed distributions.
->
->Use 'wsl.exe --list --online' to list available distributions
->and 'wsl.exe --install <Distro>' to install.
->    
->Distributions can also be installed by visiting the Microsoft Store:
->https://aka.ms/wslstore
->Error code: Wsl/WSL_E_DEFAULT_DISTRO_NOT_FOUND
+Use 'wsl.exe --list --online' to list available distributions
+and 'wsl.exe --install <Distro>' to install.
+    
+Distributions can also be installed by visiting the Microsoft Store:
+https://aka.ms/wslstore
+Error code: Wsl/WSL_E_DEFAULT_DISTRO_NOT_FOUND
+```
 
 The command `wsl --list --online` will show the linux distributions that are available to download and install.
 
