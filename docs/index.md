@@ -14,8 +14,15 @@ This workshop will provide network engineers with an introduction to some of the
 - Intel hardware is required for most containerlab images
 
 ## Available Labs
+
+### Introductory
+
 - [Set up a development environment with WSL and VS Code](wsl_vscode.md)
 - [Install NetBox docker image](netbox_docker.md)
+
+### Intermediate
+
+- [Integrate NetBox with nornir](netbox_nornir.md)
 
 ## Upcoming Labs
 - [NetBox Introduction](netbox_intro.md)

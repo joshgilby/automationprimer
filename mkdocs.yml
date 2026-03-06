@@ -5,7 +5,7 @@ nav:
   - WSL/VS Code: wsl_vscode.md
   - netbox-docker: netbox_docker.md
   - containerlab: containerlab.md
-  - advanced labs:
+  - Intermediate labs:
     - netbox/nornir: netbox_nornir.md
 
 repo_url: https://github.com/joshgilby/automationprimer
