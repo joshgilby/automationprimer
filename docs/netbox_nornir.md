@@ -69,7 +69,7 @@ Now that we understand nornir basics, replace ```some_task()``` with a new funct
 
 ??? tip "Hint 1"
 
-    The napalm configuration management library is frequently used with nornir. In particular, look at ```get_network_driver``` and ```get_config```. Examples are available in the [documentation for napalm](https://napalm.readthedocs.io/en/latest/tutorials/changing_the_config.html).
+    The napalm configuration management library is frequently used with nornir. In particular, look at ```get_network_driver()``` and ```get_config(advanced)```. Examples are available in the [documentation for napalm](https://napalm.readthedocs.io/en/latest/tutorials/changing_the_config.html).
 
 ??? tip "Hint 2"
 
