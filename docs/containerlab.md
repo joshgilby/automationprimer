@@ -6,6 +6,14 @@
 
 ## Install Containerlab
 
+Create a containerlab project directory:
+
+```
+mkdir ~/projects/containerlab && cd ~/projects/containerlab
+```
+
+Run the containerlab install script:
+
 ```
 bash -c "$(curl -sL https://get.containerlab.dev)"
 ```
