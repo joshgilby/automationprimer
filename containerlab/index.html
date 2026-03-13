@@ -584,6 +584,11 @@
 <p><a href="https://www.arista.com/en/support/software-download">Arista software downloads</a></p>
 <p>Download cEOS-lab version 4.32.0F as well as the latest cEOS-lab image.</p>
 <p><a href="https://software.cisco.com/download/home">Cisco software downloads</a></p>
+<p>Copy the images to your containerlab project directory with <code>explorer.exe .</code>.</p>
+<p>Within the containerlab project directory run the command to import the images into the docker repository:</p>
+<div class="highlight"><pre><span></span><code>docker import cEOS-lab-4.32.0F.tar.xz ceos:4.32.0F
+</code></pre></div>
+<p>Load the latest image in the same way.</p>
 <h2 id="create-lab-configuration-file">Create Lab Configuration file</h2>
 <div class="highlight"><span class="filename">ceos.clab.yml</span><pre><span></span><code><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ceos</span>
 
