@@ -576,6 +576,9 @@
 <p>Run the containerlab install script:</p>
 <div class="highlight"><pre><span></span><code>bash -c &quot;$(curl -sL https://get.containerlab.dev)&quot;
 </code></pre></div>
+<p>Add your user to the clab_admins group:
+<div class="highlight"><pre><span></span><code>sudo usermod -aG clab_admins `whoami` &amp;&amp; newgrp clab_admins
+</code></pre></div></p>
 <h2 id="download-network-device-images">Download Network Device Images</h2>
 <p>We will work with two device platforms, Arista's cEOS and Cisco's c8000v. </p>
 <h2 id="create-lab-configuration-file">Create Lab Configuration file</h2>
