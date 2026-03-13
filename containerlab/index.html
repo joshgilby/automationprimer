@@ -599,6 +599,22 @@
 <span class="w">  </span><span class="nt">links</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">endpoints</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;ceos0:eth1&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;ceos1:eth1&quot;</span><span class="p p-Indicator">]</span>
 </code></pre></div>
+<div class="highlight"><span class="filename">paste into terminal</span><pre><span></span><code><span class="l l-Scalar l-Scalar-Plain">cat &lt;&lt; EOF &gt; ceos.clab.yml</span>
+<span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ceos</span>
+
+<span class="nt">topology</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">nodes</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">ceos0</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">arista_ceos</span>
+<span class="w">      </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ceos:4.32.0F</span>
+<span class="w">    </span><span class="nt">ceos1</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">kind</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">arista_ceos</span>
+<span class="w">      </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ceos:4.32.0F</span>
+
+<span class="w">  </span><span class="nt">links</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">endpoints</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;ceos0:eth1&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;ceos1:eth1&quot;</span><span class="p p-Indicator">]</span>
+<span class="l l-Scalar l-Scalar-Plain">EOF</span>
+</code></pre></div>
 
 
 
