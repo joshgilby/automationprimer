@@ -7,7 +7,7 @@
 ## Install Containerlab
 
 ```
-curl -sL https://containerlab.dev/setup | sudo -E bash -s "all"
+bash -c "$(curl -sL https://get.containerlab.dev)"
 ```
 
 ## Download Network Device Images
