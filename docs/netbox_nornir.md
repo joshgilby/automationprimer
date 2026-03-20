@@ -45,7 +45,7 @@ nr = InitNornir(
 # Define a task
 def some_task(task:Task) -> Result:
     """
-    task to be run against all devices
+    task to run against all devices
     """
 
 # Execute the task

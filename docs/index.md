@@ -1,8 +1,16 @@
 # Network Automation Primer
-Infrastructure automation labs for network engineers
+Infrastructure automation workshop for network engineers
 
 ## Overview
-This workshop will provide network engineers with an introduction to some of the tools and practices used in infrastructure automation. The labs are highly prescriptive with the intent of building a development environment and installing common tools with as little fuss as possible.
+This workshop consists of a collection of labs to provide network engineers with an introduction to some of the tools and practices used in infrastructure automation. The labs are highly prescriptive with the intent of building a development environment and installing common tools with as little fuss as possible.
+
+### What to Expect
+
+Attendees can follow the introductory labs to stand up useful tools. These labs are not intended to provide anything beyond a cursory knowledge of the covered material. There is plenty of instructive material on the Internet, but it often makes assumptions, i.e. that the reader has access to a Linux instance. We aim to fill that gap by giving engineers a way to easily and reliably build an environment to develop automations without getting bogged down in the details of underlying components.
+
+### How to use the Labs
+
+Labs can be completed in any order as long as you meet the prerequisites. However, each lab ends with a collection of next steps. An engineer with no prior automation or Linux experience can follow the [WSL/VS Code](wsl_vscode.md) and [netbox-docker](netbox_docker.md) labs to set up a test NetBox instance without havint to learn about Linux, docker, et al. Another engineer with programming exprience might delve straight into the [netbox/nornir](netbox_nornit.md) lab.
 
 ## Prerequisites
 - Attendees should have some familiarity working from a linux command line (bash)
@@ -19,14 +27,14 @@ This workshop will provide network engineers with an introduction to some of the
 
 - [Set up a development environment with WSL and VS Code](wsl_vscode.md)
 - [Install NetBox docker image](netbox_docker.md)
+- [Install Containerlab](containerlab.md) - Work in progress
 
 ### Intermediate
 
-- [Integrate NetBox with nornir](netbox_nornir.md)
+- [Integrate NetBox with nornir](netbox_nornir.md) - Work in progress
 
 ## Upcoming Labs
 - [NetBox Introduction](netbox_intro.md)
-- [Install containerlab](containerlab.md)
 - git
 - ansible
 - python
