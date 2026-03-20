@@ -33,6 +33,7 @@ This workshop will provide network engineers with an introduction to some of the
 - NetBox deep dive
 
 ## Helpful Resources
+- [Linux Fundamentals Course](https://www.geeksforgeeks.org/linux-unix/introduction-to-linux-operating-system/)
 - [Windows Subsystem for Linux Documentation](https://learn.microsoft.com/en-us/windows/wsl/)
 - [Visual Studio Code documentation](https://code.visualstudio.com/docs)
 - [github training manual](https://githubtraining.github.io/training-manual/#/)
