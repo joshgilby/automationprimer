@@ -589,7 +589,7 @@
 <h1 id="containerlab-deployment">Containerlab Deployment</h1>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>This lab is a work in progress. Do not expect things to work :) .</p>
+<p>This lab is a work in progress. Do not expect everything to work.</p>
 </div>
 <h2 id="install-containerlab">Install Containerlab</h2>
 <p>Create a containerlab project directory:</p>
@@ -602,11 +602,9 @@
 <div class="highlight"><pre><span></span><code>sudo usermod -aG clab_admins `whoami` &amp;&amp; newgrp clab_admins
 </code></pre></div></p>
 <h2 id="download-network-device-images">Download Network Device Images</h2>
-<p>We will work with two device platforms, Arista's cEOS and Cisco's c8000v. </p>
-<p><a href="https://www.arista.com/en/support/software-download">Arista software downloads</a></p>
-<p>Download <code>cEOS-lab-4.32.0.2F.tar</code> as well as the latest cEOS-lab image.</p>
-<p><a href="https://software.cisco.com/download/home">Cisco software downloads</a></p>
-<p>Download <code>c8000v-universalk9_16G_serial.17.15.04c.qcow2</code></p>
+<p>We will work with Arista's cEOS platform, as it is distributed as a container image. It is possible to run Cisco's c8000v and Palo Alto's PA-VM-KVM virtual machine images by containerizing them with vrnetlab. </p>
+<p>Download <code>cEOS-lab-4.32.0.2F.tar</code> as well as the latest cEOS-lab image:
+<a href="https://www.arista.com/en/support/software-download">Arista software downloads</a></p>
 <p>Copy the images to your containerlab project directory with <code>explorer.exe .</code>.</p>
 <p>Within the containerlab project directory run the command to import the images into the docker repository:</p>
 <div class="highlight"><pre><span></span><code>docker import cEOS-lab-4.32.0F.tar.xz ceos:4.32.0F
@@ -627,6 +625,9 @@
 <span class="w">  </span><span class="nt">links</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">endpoints</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;ceos0:eth1&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;ceos1:eth1&quot;</span><span class="p p-Indicator">]</span>
 </code></pre></div>
+<details class="tip">
+<summary>Tip</summary>
+<p>Create the file in whatever directory you will invoke containerlab using a text editor. Alternatively, you can paste the following into a bash shell:
 <div class="highlight"><span class="filename">paste into terminal</span><pre><span></span><code><span class="l l-Scalar l-Scalar-Plain">cat &lt;&lt; EOF &gt; ceos.clab.yml</span>
 <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ceos</span>
 
@@ -642,12 +643,12 @@
 <span class="w">  </span><span class="nt">links</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">endpoints</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">&quot;ceos0:eth1&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="s">&quot;ceos1:eth1&quot;</span><span class="p p-Indicator">]</span>
 <span class="l l-Scalar l-Scalar-Plain">EOF</span>
-</code></pre></div>
+</code></pre></div></p>
+</details>
 <h2 id="helpful-resources">Helpful resources</h2>
 <ul>
 <li><a href="https://containerlab.dev/">containerlab home page</a></li>
-<li><a href="https://github.com/ipspace/vrnetlab">vrnetlab - containerize a VM</a> - confirmed</li>
-<li><a href="https://netlab.tools/labs/cat8000v/">building c8000v as a container</a> - unconfirmed</li>
+<li><a href="https://github.com/ipspace/vrnetlab">vrnetlab - containerize a VM</a></li>
 </ul>
 
 
