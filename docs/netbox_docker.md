@@ -45,6 +45,16 @@ docker compose exec netbox /opt/netbox/netbox/manage.py createsuperuser
 
 Follow the prompts to create a netbox user. Your NetBox instance is now deployed. Connect to http://localhost:8000 and log in to use NetBox.
 
-# Further Reading
+!!! success
+    Your netbox instance is now running and ready to use.
 
-- [netbox-docker Repository](https://github.com/netbox-community/netbox-docker)
+    ## Next Steps
+
+    ### Continue to containerlab installation
+
+    - [Install containerlab](containerlab.md)
+
+    ### Learn more about NetBox
+
+    - [Introduction to NetBox lab (WIP)](netbox_intro.md)
+    - [NetBox Community github page](https://github.com/netbox-community/)

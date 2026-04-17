@@ -79,14 +79,21 @@ In the VS Code terminal run:
 sudo apt update && sudo apt upgrade -y
 ```
 
-Congratulations! You now have an environment to develop and deploy linux applications on Windows.
+!!! success
+    You now have an environment to develop and deploy linux applications on Windows.
 
-# Further Reading
+    ## Next Steps
 
-WSL
-- [Windows Subsystem for Linux Documentation](https://learn.microsoft.com/en-us/windows/wsl/)
-- [Set up a WSL development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
+    ### Continue to NetBox installation
 
-VS Code
-- [Visual Studio Code documentation](https://code.visualstudio.com/docs)
-- [Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
+    - [Install NetBox docker image](netbox_docker.md)
+
+    ### Learn more about WSL
+
+    - [Windows Subsystem for Linux Documentation](https://learn.microsoft.com/en-us/windows/wsl/)
+    - [Set up a WSL development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
+
+    ### Learn more about VS Code
+
+    - [Visual Studio Code documentation](https://code.visualstudio.com/docs)
+    - [Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
