@@ -36,7 +36,7 @@ Copy the images to your containerlab project directory with ```explorer.exe .```
 Within the containerlab project directory run the command to import the images into the docker repository:
 
 ```
-docker import cEOS-lab-4.32.0F.tar.xz ceos:4.32.0F
+docker import cEOS-lab-4.32.0.2F.tar.xz ceos:4.32.0F
 ```
 
 Load the latest image in the same way.
