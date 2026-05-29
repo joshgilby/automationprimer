@@ -650,6 +650,7 @@ sudo apt -y install git docker.io docker-compose-v2 python3.12-venv
 sudo usermod -a -G docker `whoami`
 sudo reboot
 </code></pre></div>
+<p>Following the reboot, it may be necessary to reload the VS Code window in order to reconnect to your WSL instance.</p>
 <h2 id="clone-the-netbox-docker-repository">Clone the <code>netbox-docker</code> Repository</h2>
 <div class="highlight"><pre><span></span><code>mkdir -p ~/projects &amp;&amp; cd ~/projects
 git clone -b release https://github.com/netbox-community/netbox-docker.git
