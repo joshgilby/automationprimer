@@ -4,7 +4,7 @@
 
 ### Tenant Groups
 
-### Tenants
+### ***Tenants***
 
 ## Geography
 
@@ -12,9 +12,11 @@
 
 ### SiteGroups
 
-### Sites
+### ***Sites***
 
 ### Locations
+
+## Rack information
 
 ### Rack Roles
 
@@ -24,13 +26,13 @@
 
 ## Equipment
 
-### Manufacturers
+### ***Manufacturers***
 
-### Device Types
+### ***Device Types***
 
 ### Device Roles
 
-### Platforms
+### ***Platforms***
 
 ## IPAM
 
@@ -40,4 +42,4 @@
 
 ### Prefixes
 
-### IP Addresses
+### ***IP Addresses***

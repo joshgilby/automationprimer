@@ -10,6 +10,10 @@ sudo apt -y install git docker.io docker-compose-v2 python3.12-venv
 sudo usermod -a -G docker `whoami`
 sudo reboot
 ```
+
+!!! warning
+    Following the reboot, VS Code may fail to reconnect to the WSL instance. It may be necessary to reload the VS Code window, close and restart VS Code, or reboot Windows to restore the connection.
+
 ## Clone the ```netbox-docker``` Repository
 
 ```
@@ -33,7 +37,8 @@ docker compose pull
 docker compose up
 ```
 
-When docker compose completes, it may indicate that the netbox-docker-netbox-1 container is unhealthy. This is usually not a problem. The container is still starting up and will complete in a few minutes.
+!!! warning
+    When docker compose completes, it may indicate that the netbox-docker-netbox-1 container is unhealthy. This is usually not a problem. The container is still starting up and will complete in a few minutes.
 
 When the netbox installation is complete, you will see the netbox landing page at http://localhost:8000
 

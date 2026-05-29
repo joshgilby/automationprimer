@@ -15,11 +15,7 @@ wsl --version
 ```
 
 !!! tip
-    If WSL is not installed, you can install it with 
-    
-    ```
-    wsl --install
-    ```
+    If WSL is not installed, this command will prompt you to install it. Accept the prompt and reboot.
 
 If necessary, upgrade WSL to the latest version (2.6.3.0 as of this writing):
 
@@ -60,7 +56,7 @@ VS Code is an integrated development environment, combining several software dev
 
 ### Install VS Code
 
-Visit the [Visual Studio Download page](https://code.visualstudio.com/download) and dowload the installer for your platform. Download and run the user installer for your platform, keeping default settings.
+Visit the [Visual Studio Download page](https://code.visualstudio.com/download) and dowload the user installer for your platform. Download and run the user installer for your platform, keeping default settings.
 
 ### Connect VS Code to WSL
 
