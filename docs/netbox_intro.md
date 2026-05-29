@@ -2,46 +2,46 @@
 
 ## Tenancy
 
-### Tenant Groups
+#### Tenant Groups
 
-### Tenants
+#### Tenants
 
 ## Geography
 
-### Regions
+#### Regions
 
-### SiteGroups
+#### SiteGroups
 
-### ***Sites***
+#### ***Sites***
 
-### Locations
+#### Locations
 
 ## Rack information
 
-### Rack Roles
+#### Rack Roles
 
-### Racks
+#### Racks
 
 ## Contacts
 
 ## Equipment
 
-### Devices
+#### Devices
 
-### ***Manufacturers***
+#### ***Manufacturers***
 
-### ***Device Types***
+#### ***Device Types***
 
-### ***Device Roles***
+#### ***Device Roles***
 
-### Platforms
+#### Platforms
 
 ## IPAM
 
-### RIRs
+#### RIRs
 
-### Aggregates
+#### Aggregates
 
-### Prefixes
+#### Prefixes
 
-### ***IP Addresses***
+#### ***IP Addresses***
