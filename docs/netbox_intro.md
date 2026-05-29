@@ -4,7 +4,7 @@
 
 ### Tenant Groups
 
-### ***Tenants***
+### Tenants
 
 ## Geography
 
@@ -30,9 +30,9 @@
 
 ### ***Device Types***
 
-### Device Roles
+### ***Device Roles***
 
-### ***Platforms***
+### Platforms
 
 ## IPAM
 
