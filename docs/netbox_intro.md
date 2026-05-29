@@ -26,6 +26,8 @@
 
 ## Equipment
 
+### Devices
+
 ### ***Manufacturers***
 
 ### ***Device Types***
